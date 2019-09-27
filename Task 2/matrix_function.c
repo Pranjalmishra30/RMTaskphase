@@ -98,8 +98,8 @@ int main()
      scanf("%d",&A[i][j]);
 
   printf("enter 2nd array\n");
-   for(i=0;i<n;i++)
-    for(j=0;j<m;j++)
+   for(i=0;i<p;i++)
+    for(j=0;j<q;j++)
       scanf("%d",&B[i][j]);
 
   //TASK 1
@@ -137,6 +137,11 @@ int main()
 
   //TASK 2
   //Determinant of matrix
+	if(n!=q)
+	{
+	printf("determinant can't be found");
+	exit(0);
+	}
   int D=determinant(C,n);
   printf("\nDeterminant of the matrix is : %d\n",D);
 
@@ -144,7 +149,7 @@ int main()
   if(D==0)
     printf("inverse can't be found\n");
   else
-    int adj[N][N],inverse[i][j];
+    int adj[N][N],inverse[N][N];
     adjoint(C, adj);
   for (int i=0; i<n; i++)
       for (int j=0; j<q; j++)
