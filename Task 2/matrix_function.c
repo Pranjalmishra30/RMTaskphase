@@ -63,7 +63,7 @@ void adjoint(int A[N][N],int adj[N][N])
             else
                 s=-1;
 
-            adj[j][i] = (sign)*(determinant(temp, N-1));//interchanging values of i and j to get its transpose
+            adj[j][i] = (s)*(determinant(temp, N-1));//interchanging values of i and j to get its transpose
         }
     }
 }
@@ -149,12 +149,13 @@ int main()
   if(D==0)
     printf("inverse can't be found\n");
   else
+  {
     int adj[N][N],inverse[N][N];
     adjoint(C, adj);
-  for (int i=0; i<n; i++)
+   for (int i=0; i<n; i++)
       for (int j=0; j<q; j++)
-            inverse[i][j] = adj[i][j]/float(D);
+             inverse[i][j] = adj[i][j]/D;
 
    display(inverse,n,q);
-
+  }
 }
