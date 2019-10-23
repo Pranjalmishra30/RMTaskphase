@@ -2,14 +2,17 @@
 -------
 ###**Week 1**<br>
 1.Started with learning basic git and Linux commands.<br>
+
 2. Understanding the layout of an Arduino board. Started programming with the Arduino IDE and getting familiar with common functions (eg- digitalWrite/Read).<br>
+
 3. Writing and testing out basic Arduino programs for blinking and fading of a LED.<br>
-    1.In fading used Pulse width modulation(PWM) turning the digital pin on and off with different ratio to create a fading           effect.<br>
+    * In fading used Pulse width modulation(PWM) turning the digital pin on and off with different ratio to create a fading           effect.<br>
 4.	Testing out a photoresistor (LDR) and writing a code for a situation, when light in a room is less – the LED should glow.<br>
+
 5.	Worked with 2 types of sensors <br>
- ...   •	Ultrasonic Sensor (HC-SR04) <br>
-       ...Works on the same principle as SONAR. Found distance of nearby objects and found out sensor’s range.<br> 
- ...   •	IR sensor<br> 
+    * Ultrasonic Sensor (HC-SR04) <br>
+        * Works on the same principle as SONAR. Found distance of nearby objects and found out sensor’s range.<br> 
+        •	IR sensor<br> 
        ...Used it to find presence of objects. The sensor works by sending infrared waves and then receiving them.<br> 
        ...	Also found out a way to calculate distance by relating distance and voltage received by sensor. <br> 
 6.	8 array LED <br> 
