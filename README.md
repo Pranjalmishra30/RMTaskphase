@@ -16,5 +16,6 @@
 ...•	Used in line following robots to navigate a black line on a white background.<br> 
 ...•	Used sensor to differentiate between black and white background. The LED’s light up when they sense white color.<br> 
 ...•	In another application, program the sensor to give out average position of a line. This is especially useful in line navigation bots.<br> 
-7.	Finding about servo and stepper motors. How they function and how they can be used with an Arduino.<br> 
+7.	Finding about servo and stepper motors. How they function and how they can be used with an Arduino.<br> <br>
+###**Week 2**<br>
  
