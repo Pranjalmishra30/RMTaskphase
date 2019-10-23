@@ -8,14 +8,15 @@
 4.	Testing out a photoresistor (LDR) and writing a code for a situation, when light in a room is less – the LED should glow.<br>
 5.	Worked with 2 types of sensors <br>
  ...   •	Ultrasonic Sensor (HC-SR04) <br>
-       ... Works on the same principle as SONAR. Found distance of nearby objects and found out sensor’s range.<br> 
+       ...Works on the same principle as SONAR. Found distance of nearby objects and found out sensor’s range.<br> 
  ...   •	IR sensor<br> 
-       ...	Used it to find presence of objects. The sensor works by sending infrared waves and then receiving them.<br> 
-       ...	Also found out a way to calculate distance by relating distance and voltage received by sensor. <br> 
+       ...Used it to find presence of objects. The sensor works by sending infrared waves and then receiving them.<br> 
+       ...	Also found out a way to calculate distance by relating distance and voltage received by sensor. <br> 
 6.	8 array LED <br> 
 ...•	Used in line following robots to navigate a black line on a white background.<br> 
 ...•	Used sensor to differentiate between black and white background. The LED’s light up when they sense white color.<br> 
 ...•	In another application, program the sensor to give out average position of a line. This is especially useful in line navigation bots.<br> 
 7.	Finding about servo and stepper motors. How they function and how they can be used with an Arduino.<br> <br>
 ###**Week 2**<br>
+1.Understanding 
  
