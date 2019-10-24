@@ -2,7 +2,6 @@
 -------
 **Week 1**<br>
 1.Started with learning basic git and Linux commands.<br>
-
 2. Understanding the layout of an Arduino board. Started programming with the Arduino IDE and getting familiar with common functions (eg- digitalWrite/Read).<br>
 
 3. Writing and testing out basic Arduino programs for blinking and fading of a LED.<br>
