@@ -1,15 +1,16 @@
-int led=9;
+int led=13;
 int i;
 void setup() {
-Serial.begin(9600);
-pinMode(led,OUTPUT);  
+  Serial.begin(9600);
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
- for(i=0;i<=255;i++)
+  
+  for(i=0;i<=255;i++)
   {
     analogWrite(led,i);
-    delay(4);
+    delay(6);
   }
   for(;i>=0;i--)
   {
@@ -17,3 +18,4 @@ void loop() {
     delay(4);
   }
 }    
+  
