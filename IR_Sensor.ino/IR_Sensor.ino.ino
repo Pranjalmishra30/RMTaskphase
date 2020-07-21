@@ -1,4 +1,4 @@
-int ir_pin=7;
+int ir_pin=10;
 void setup() {
 Serial.begin(9600);
 pinMode(ir_pin,INPUT);
