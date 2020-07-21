@@ -1,3 +1,4 @@
+#Not tested
 #include<Stepper.h>
 const int stepsperrev=32; //change this for your motor; stepperrev=360/stepangle
 Stepper my_stepper(stepsperrev,8,9,10,11); 
